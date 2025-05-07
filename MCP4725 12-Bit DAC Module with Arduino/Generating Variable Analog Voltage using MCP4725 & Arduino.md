@@ -42,7 +42,6 @@ void loop()
   dac.setVoltage(4095, false);              //Set voltage to 5V or (Vcc)
   delay(2000);
 }
-
 ```
 ---
 
