@@ -1,4 +1,4 @@
-## Generating a **variable analog voltage** using the MCP4725 and Arduino is a **common application** for this DAC module. By varying the digital input to the MCP4725, you can produce a range of **analog output voltages**.
+### Generating a **variable analog voltage** using the MCP4725 and Arduino is a **common application** for this DAC module. By varying the digital input to the MCP4725, you can produce a range of **analog output voltages**.
 
 #### In the following code, we will generate the 5 different analog voltages from Vout pin of MCP4725.
 
