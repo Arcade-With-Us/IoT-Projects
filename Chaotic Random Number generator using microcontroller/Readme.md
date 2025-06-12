@@ -75,7 +75,7 @@ void loop() {
 * **`r`**: constant control parameter
 
 ## ⚙️ Arduino Code
-```
+```cpp
 float r = 3.9;       // Constant control parameter
 float Xi = 0.456;    // Initial seed
 int iterations = 100;
