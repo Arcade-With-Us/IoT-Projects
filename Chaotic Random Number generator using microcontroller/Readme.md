@@ -73,3 +73,38 @@ void loop() {
 * **`Xᵢ₊₁`**: next value
 
 * **`r`**: constant control parameter
+
+## ⚙️ Arduino Code
+```
+float r = 3.9;       // Constant control parameter
+float Xi = 0.456;    // Initial seed
+int iterations = 100;
+
+void setup() {
+  Serial.begin(9600);
+  delay(1000);
+
+  for (int i = 0; i < iterations; i++) {
+    float Xi_next = r * Xi * (1 - Xi);
+
+    // For Serial Plotter
+    Serial.print("X_i:");
+    Serial.print(Xi, 6);
+    Serial.print("\t");
+
+    Serial.print("X_i+1:");
+    Serial.print(Xi_next, 6);
+    Serial.print("\t");
+
+    Serial.print("R:");
+    Serial.println(r, 6);
+
+    Xi = Xi_next;
+    delay(50);
+  }
+}
+
+void loop() {
+  while (true); // Stop execution
+}
+```
