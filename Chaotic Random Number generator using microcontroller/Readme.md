@@ -61,3 +61,5 @@ void loop() {
   }
 }
 ```
+---
+## 🌪️ Part 2: Chaotic 1D Logistic Map (Xᵢ₊₁ = r · Xᵢ · (1 − Xᵢ))
