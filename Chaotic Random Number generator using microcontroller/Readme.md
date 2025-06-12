@@ -115,3 +115,66 @@ i	X_i		X_i+1		R
 1	0.969062	0.116778	3.90
 2	0.116778	0.403239	3.90
 ```
+## 📤 Export & Plot Xᵢ vs Xᵢ₊₁ in Python
+```
+import matplotlib.pyplot as plt
+import numpy as np
+
+# --------------------------
+# Part 1: Time-Series Plot (Fixed r)
+# --------------------------
+def logistic_map_series(r=3.9, x0=0.456, n=100):
+    x = np.zeros(n)
+    x[0] = x0
+    for i in range(1, n):
+        x[i] = r * x[i-1] * (1 - x[i-1])
+    return x
+
+# Plot Xᵢ over time for a fixed r
+r_fixed = 3.9
+x0 = 0.456
+iterations = 100
+x_values = logistic_map_series(r_fixed, x0, iterations)
+
+plt.figure(figsize=(8, 4))
+plt.plot(range(iterations), x_values, marker='o', linestyle='-')
+plt.title(f"Logistic Map Time Series (r = {r_fixed})")
+plt.xlabel("Iteration (i)")
+plt.ylabel("Xᵢ")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
+# --------------------------
+# Part 2: Bifurcation Diagram (r vs X)
+# --------------------------
+def bifurcation_diagram(r_min=2.5, r_max=4.0, steps=10000, discard=100, keep=100):
+    r_values = np.linspace(r_min, r_max, steps)
+    x0 = 0.5
+    xs = []
+    rs = []
+
+    for r in r_values:
+        x = x0
+        # Remove transient
+        for _ in range(discard):
+            x = r * x * (1 - x)
+        # Collect stable points
+        for _ in range(keep):
+            x = r * x * (1 - x)
+            rs.append(r)
+            xs.append(x)
+    return rs, xs
+
+# Plot bifurcation diagram
+r_vals, x_vals = bifurcation_diagram()
+
+plt.figure(figsize=(10, 6))
+plt.plot(r_vals, x_vals, ',k', alpha=0.25)
+plt.title("Bifurcation Diagram of Logistic Map")
+plt.xlabel("r")
+plt.ylabel("X")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+```
