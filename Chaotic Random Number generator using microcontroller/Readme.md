@@ -178,3 +178,24 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 ```
+---
+
+## 📌 Notes
+* MCP4725 provides **12-bit precision DAC output** (0–4095)
+
+* Logistic Map is sensitive to initial **X₀** and **r** values
+
+* Arduino Serial Plotter only supports time-series, so for scatter plots (**Xᵢ** vs **Xᵢ₊₁**), use Python/Excel
+
+## 🧠 What You Learn
+
+| ✅ Skill | 💬 Application          |
+|-------------|----------------------|
+| DAC interfacing	         | Analog signal generation from digital values
+  |
+| I2C communication	         | Talking to MCP4725 with minimal wires
+                  |
+| Non-linear dynamics	         | Visualize chaos using the Logistic Map
+ |
+| Serial Plotting	         | Real-time value tracking for debugging or display |
+| Cross-platform analysis        | Use Arduino + Python for hybrid data processing |
