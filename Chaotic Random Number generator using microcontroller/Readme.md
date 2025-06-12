@@ -22,7 +22,7 @@ This project demonstrates:
 
 ## 🔌 Circuit Diagram
 
-🖼️ ![Circuit Diagram](https://github.com/Arcade-With-Us/IoT-Projects/blob/main/Chaotic%20Random%20Number%20generator%20using%20microcontroller/ChatGPT%20Image%20Jun%2011%2C%202025%2C%2005_28_00%20PM.png) 
+![Circuit Diagram](https://github.com/Arcade-With-Us/IoT-Projects/blob/main/Chaotic%20Random%20Number%20generator%20using%20microcontroller/ChatGPT%20Image%20Jun%2011%2C%202025%2C%2005_28_00%20PM.png) 
 📌 **Connections:**
 
 | MCP4725 Pin | Connects To          |
