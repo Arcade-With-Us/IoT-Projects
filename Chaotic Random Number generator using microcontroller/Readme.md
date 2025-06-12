@@ -1,4 +1,4 @@
-# 🎛️ DAC Waveform & Chaotic Logistic Map Generator using Arduino Due + MCP4725
+## 🎛️ DAC Waveform & Chaotic Logistic Map Generator using Arduino Due + MCP4725 I2C DAC
 
 This project demonstrates:
 - ✅ Digital-to-Analog conversion using **MCP4725 I²C DAC** and **Arduino Due**
