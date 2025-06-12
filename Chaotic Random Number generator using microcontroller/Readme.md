@@ -64,8 +64,9 @@ void loop() {
 ---
 ## 🌪️ Part 2: Chaotic 1D Logistic Map (Xᵢ₊₁ = r · Xᵢ · (1 − Xᵢ))
 
-📈 Output in Serial Plotter
-Visualizes:
+📈 **`Output in Serial Plotter`**
+
+`Visualizes:`
 
 * **`Xᵢ`**: current value (chaotic)
 
