@@ -74,6 +74,8 @@ void loop() {
 
 * **`r`**: constant control parameter
 
+![Output](https://github.com/Arcade-With-Us/IoT-Projects/blob/main/Chaotic%20Random%20Number%20generator%20using%20microcontroller/Figure_2.png)
+
 ## ⚙️ Arduino Code
 ```cpp
 float r = 3.9;       // Constant control parameter
