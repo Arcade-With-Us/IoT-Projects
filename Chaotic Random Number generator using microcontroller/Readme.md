@@ -116,7 +116,7 @@ i	X_i		X_i+1		R
 2	0.116778	0.403239	3.90
 ```
 ## 📤 Export & Plot Xᵢ vs Xᵢ₊₁ in Python
-```
+```cpp
 import matplotlib.pyplot as plt
 import numpy as np
 
