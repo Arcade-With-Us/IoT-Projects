@@ -109,7 +109,7 @@ void loop() {
 }
 ```
 ## 📊 Example Serial Monitor Output
-```
+```cpp
 i	X_i		X_i+1		R
 0	0.456000	0.969062	3.90
 1	0.969062	0.116778	3.90
