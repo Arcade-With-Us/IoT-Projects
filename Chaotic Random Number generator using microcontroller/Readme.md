@@ -180,7 +180,7 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 ```
-## Possible output for 1st 100 itterations
+## Possible output for 1st 100 itterations:
 ![output](https://github.com/Arcade-With-Us/IoT-Projects/blob/main/Chaotic%20Random%20Number%20generator%20using%20microcontroller/Figure_1.png)
 ---
 ## 📌 Notes
