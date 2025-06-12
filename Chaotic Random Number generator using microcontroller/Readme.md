@@ -22,7 +22,7 @@ This project demonstrates:
 
 ## 🔌 Circuit Diagram
 
-🖼️ ![Circuit Diagram](./circuit.png)  
+🖼️ ![Circuit Diagram](./ChatGPT Image Jun 10, 2025, 09_43_11 PM.png)  
 📌 **Connections:**
 
 | MCP4725 Pin | Connects To          |
