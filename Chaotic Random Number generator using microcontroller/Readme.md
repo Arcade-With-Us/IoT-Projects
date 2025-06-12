@@ -6,7 +6,7 @@ This project demonstrates:
 - 📈 Visualization of a **1D chaotic logistic map**
 - 🔬 Serial data plotting using **Arduino Serial Plotter**
 
-* Download our project ppt and have a look: [Click](https://github.com/Arcade-With-Us/IoT-Projects/blob/main/Chaotic%20Random%20Number%20generator%20using%20microcontroller/Project.pptx)
+* Download our project ppt and have a look: [Click](https://github.com/Arcade-With-Us/IoT-Projects/raw/refs/heads/main/Chaotic%20Random%20Number%20generator%20using%20microcontroller/Project.pptx)
 ---
 
 ## 📦 Components Required
