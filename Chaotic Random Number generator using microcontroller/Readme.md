@@ -191,11 +191,8 @@ plt.show()
 
 | ✅ Skill | 💬 Application          |
 |-------------|----------------------|
-| DAC interfacing	         | Analog signal generation from digital values
-  |
-| I2C communication	         | Talking to MCP4725 with minimal wires
-                  |
-| Non-linear dynamics	         | Visualize chaos using the Logistic Map
- |
-| Serial Plotting	         | Real-time value tracking for debugging or display |
-| Cross-platform analysis        | Use Arduino + Python for hybrid data processing |
+| DAC interfacing | Analog signal generation from digital values |
+| I2C communication| Talking to MCP4725 with minimal wires |
+| Non-linear dynamics| Visualize chaos using the Logistic Map |
+| Serial Plotting| Real-time value tracking for debugging or display |
+| Cross-platform analysis| Use Arduino + Python for hybrid data processing |
