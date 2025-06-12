@@ -186,6 +186,7 @@ plt.show()
 * Logistic Map is sensitive to initial **X₀** and **r** values
 
 * Arduino Serial Plotter only supports time-series, so for scatter plots (**Xᵢ** vs **Xᵢ₊₁**), use Python/Excel
+---
 
 ## 🧠 What You Learn
 
@@ -196,3 +197,8 @@ plt.show()
 | Non-linear dynamics| Visualize chaos using the Logistic Map |
 | Serial Plotting| Real-time value tracking for debugging or display |
 | Cross-platform analysis| Use Arduino + Python for hybrid data processing |
+
+---
+## ✅ Conclusion
+This project successfully combines chaotic mathematics, data plotting, and hardware analog signal generation in a compact educational setup. It’s a great example of interdisciplinary work between mathematics, electronics, and embedded programming.
+---
