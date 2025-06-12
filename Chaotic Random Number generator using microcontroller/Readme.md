@@ -204,6 +204,5 @@ plt.show()
 
 ---
 ## ✅ Conclusion
-
 #### This project successfully combines chaotic mathematics, data plotting, and hardware analog signal generation in a compact educational setup. It’s a great example of interdisciplinary work between mathematics, electronics, and embedded programming.
 ---
